@@ -413,7 +413,7 @@ const CATEGORIES = [
         title: "AI Generalist Program",
         subtitle: "Become an AI Generalist in 6 Months",
         image: "/courses/ai generalist.jpg",
-        link: "https://voujhg.courses.store/842454?utm_source=other&utm_medium=tutor-course-referral&utm_campaign=course-overview-webapp",
+        link: "https://voujhg.courses.store/842454",
         description: "A comprehensive program designed to help learners build practical AI skills across multiple domains — from AI fundamentals to building real-world AI applications using modern tools and workflows.",
         highlights: ["6 Structured Levels", "Hands-on Tool-Based Learning", "Capstone Project & Demo Day", "Real-World AI Applications"],
         price: "35,000",

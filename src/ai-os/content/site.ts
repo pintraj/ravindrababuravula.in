@@ -67,7 +67,7 @@ export const applyFlow = {
    * page instead — set it to the courses.store listing to switch the whole
    * page over to selling.
    */
-  url: null as string | null,
+  url: "https://voujhg.courses.store/842454" as string | null,
   email: "gate2014.ravindra@gmail.com",
   /** TODO: your booking link for the consult call. null → consult link hidden. */
   consultUrl: null as string | null,
