@@ -242,6 +242,48 @@ const PNC_COURSE = {
   marqueeText: "UDEMY COURSE ★ PERMUTATION & COMBINATIONS ★ GATE EXAM ★ COLLEGE EXAMS ★ COMPETITIVE EXAMS ★ PROF RBR ★ ",
 };
 
+/* ── Operating Systems — Udemy (standalone) ── */
+const OS_COURSE = {
+  id: "udemy-os-01",
+  tag: "UDEMY · COMPUTER SCIENCE",
+  title: "Operating Systems",
+  subtitle: "Prof Ravindrababu Ravula",
+  image: "/courses/os.png",
+  link: "https://www.udemy.com/course/operating-systems-x/?referralCode=4E32BFE5AE3AC33EEC16",
+  description: "Master Operating Systems concepts — from process management, scheduling, and synchronization to memory management, file systems, and deadlocks for GATE, university exams, and interviews.",
+  highlights: [
+    "Process Management & Scheduling",
+    "Memory Management & Virtual Memory",
+    "Deadlocks, Synchronization & Concurrency",
+    "File Systems & I/O Management",
+  ],
+  price: "799",
+  originalPrice: null,
+  discount: null,
+  marqueeText: "UDEMY COURSE ★ OPERATING SYSTEMS ★ PROCESS MANAGEMENT ★ MEMORY & VIRTUAL MEMORY ★ DEADLOCKS ★ GATE & INTERVIEWS ★ PROF RBR ★ ",
+};
+
+/* ── Computer Networks — Udemy (standalone) ── */
+const CN_COURSE = {
+  id: "udemy-cn-01",
+  tag: "UDEMY · COMPUTER SCIENCE",
+  title: "Computer Networks",
+  subtitle: "Prof Ravindrababu Ravula",
+  image: "/courses/cn.png",
+  link: "https://www.udemy.com/course/computer-networks-z/?referralCode=EA537ADBEAE8F460098E",
+  description: "Master Computer Networks from the ground up — covering the OSI & TCP/IP models, routing, switching, transport protocols, application layer, and network security for GATE, university exams, and interviews.",
+  highlights: [
+    "OSI & TCP/IP Protocol Stack",
+    "Routing, Switching & IP Addressing",
+    "TCP, UDP & Congestion Control",
+    "Application Protocols: DNS, HTTP, FTP, SMTP",
+  ],
+  price: "799",
+  originalPrice: null,
+  discount: null,
+  marqueeText: "UDEMY COURSE ★ COMPUTER NETWORKS ★ OSI & TCP/IP ★ ROUTING & SWITCHING ★ DNS · HTTP · FTP ★ GATE & INTERVIEWS ★ PROF RBR ★ ",
+};
+
 /* ── AI Generalist OS — 38-Day Builder Program (standalone, very top of page) ──
    NOTE: this is a different program from the 6-month "AI Generalist Program"
    in the Featured category below — that one is recorded, this one is a 38-day
@@ -1334,132 +1376,132 @@ const CATEGORIES = [
       },
     ],
   },
-  {
-    key: "individual",
-    label: "Individual Courses",
-    heading: "Individual Subject Courses",
-    description: "Deep-dive into specific GATE CS subjects. Master individual topics with focused, exam-oriented lectures and practice.",
-    count: 2,
-    courses: [
-      {
-        id: 401, tag: "GATE CS · SUBJECT", title: "Theory of Computation (Recorded)",
-        subtitle: "Prof Ravindrababu Ravula",
-        image: "/courses/TOC.jpg",
-        link: "https://voujhg.courses.store/842453?utm_source=other&utm_medium=tutor-course-referral&utm_campaign=course-overview-webapp",
-        description: "This course covers the core concepts of Theory of Computation required for GATE CSE preparation. It includes finite automata, regular languages, context-free grammars, pushdown automata, Turing machines, computability, decidability, and complexity theory.",
-        highlights: ["Finite Automata & Regular Languages", "CFG & Pushdown Automata", "Turing Machines & Decidability", "GATE CSE Aligned"],
-        price: "3,999", originalPrice: "0", discount: "0", color: "dark",
-        details: {
-          overview: "This course covers the core concepts of Theory of Computation required for GATE CSE preparation. It includes finite automata, regular languages, context-free grammars, pushdown automata, Turing machines, computability, decidability, and complexity theory. The course is designed to build strong theoretical foundations through concept-based lectures, examples, and practice problems aligned with the GATE syllabus.",
-          format: ["Topic-wise structured lectures covering the complete TOC syllabus", "Previous Year Questions (PYQs) discussed with detailed explanation", "Concept-based approach with exam-level problem solving", "Practice problems and assignments after each topic"],
-          whatYouLearn: [
-            "Regular Languages and Regular Expressions",
-            "Deterministic and Non-Deterministic Finite Automata (DFA & NFA)",
-            "Context-Free Grammars (CFG) and Pushdown Automata (PDA)",
-            "Regular and Context-Free Languages — properties and closure",
-            "Pumping Lemma for Regular and Context-Free Languages",
-            "Turing Machines — construction, variants, and computability",
-            "Decidability and Undecidability",
-            "Complexity Theory",
-          ],
-          subjects: [
-            "Regular Languages & Finite Automata",
-            "Context-Free Languages & PDAs",
-            "Pumping Lemma",
-            "Turing Machines",
-            "Decidability & Undecidability",
-            "Complexity Theory",
-          ],
-          features: [
-            "Complete GATE CS TOC Syllabus Coverage",
-            "Concept-First Approach — strong intuition before formalism",
-            "PYQ Discussion — every important previous year question explained",
-            "Exam-Oriented Practice — problems designed to match GATE difficulty",
-            "Recorded access — learn at your own pace",
-          ],
-          whatYouGet: [
-            "Complete TOC lecture series (Recorded)",
-            "Previous Year Questions with detailed solutions",
-            "Practice problems topic-wise",
-            "1 Year validity",
-          ],
-          whoIsFor: [
-            "GATE CS aspirants preparing TOC as a standalone subject",
-            "Students who want concept clarity in Automata Theory",
-            "Those who find TOC abstract and need structured explanation",
-            "Aspirants revising TOC before the GATE exam",
-          ],
-          outcome: [
-            "Strong conceptual understanding of all TOC topics",
-            "Ability to solve GATE-level TOC questions confidently",
-            "Clear understanding of formal languages and machines",
-            "Familiarity with decidability arguments and reductions",
-          ],
-        },
-      },
-      {
-        id: 402, tag: "GATE CS · SUBJECT", title: "Database Management System (Recorded)",
-        subtitle: "Prof Ravindrababu Ravula",
-        image: "/courses/dbms.jpg",
-        link: "https://voujhg.courses.store/842601?utm_source=other&utm_medium=tutor-course-referral&utm_campaign=course-overview-webapp",
-        description: "This course provides a complete understanding of Database Management Systems, covering both fundamental and advanced concepts. Topics include the need for DBMS, normalization, relational algebra, SQL, ER modeling, file organization, indexing, transaction management, and concurrency control.",
-        highlights: ["ER Model & Relational Algebra", "SQL & Normalization", "Transactions & Concurrency", "GATE CSE Aligned"],
-        price: "3,999", originalPrice: "0", discount: "0", color: "dark",
-        details: {
-          overview: "This course provides a complete understanding of Database Management Systems, covering both fundamental and advanced concepts. Topics include the need for DBMS, normalization, relational algebra, SQL, ER modeling, file organization, indexing, transaction management, and concurrency control. The course also includes practice questions and recorded lectures to strengthen conceptual clarity and problem-solving skills.",
-          format: ["Topic-wise structured lectures covering the complete DBMS syllabus", "Previous Year Questions (PYQs) discussed with detailed explanation", "Concept-based approach with exam-level problem solving", "Practice problems and assignments after each topic"],
-          whatYouLearn: [
-            "Need for DBMS and fundamental concepts",
-            "Entity-Relationship (ER) Model and ER-to-Relational mapping",
-            "Relational Algebra and SQL",
-            "Normalization — 1NF, 2NF, 3NF, BCNF",
-            "File Organization and Indexing (B Trees and B+ Trees)",
-            "Transaction Management and ACID Properties",
-            "Concurrency Control",
-          ],
-          subjects: [
-            "ER Model & Relational Model",
-            "Relational Algebra & SQL",
-            "Normalization",
-            "File Organization & Indexing",
-            "Transaction Management",
-            "Concurrency Control",
-          ],
-          features: [
-            "Complete GATE CS DBMS Syllabus Coverage",
-            "Concept-First Approach — intuition and understanding before problem solving",
-            "PYQ Discussion — all important previous year questions explained",
-            "Exam-Oriented Practice — questions at GATE difficulty level",
-            "Recorded access — learn at your own pace",
-          ],
-          whatYouGet: [
-            "Complete DBMS lecture series (Recorded)",
-            "Previous Year Questions with detailed solutions",
-            "Practice questions for conceptual clarity",
-            "1 Year validity",
-          ],
-          whoIsFor: [
-            "GATE CS aspirants preparing DBMS as a standalone subject",
-            "Students who want to strengthen SQL and Normalization",
-            "Those who need clarity on Transactions and Concurrency Control",
-            "Aspirants revising DBMS before the GATE exam",
-          ],
-          outcome: [
-            "Complete understanding of DBMS — fundamentals to advanced",
-            "Ability to solve GATE-level DBMS questions confidently",
-            "Clear command over SQL, Normalization, and Transactions",
-            "Strong grasp of indexing structures and concurrency protocols",
-          ],
-        },
-      },
-    ],
-  },
+  // {
+  //   key: "individual",
+  //   label: "Individual Courses",
+  //   heading: "Individual Subject Courses",
+  //   description: "Deep-dive into specific GATE CS subjects. Master individual topics with focused, exam-oriented lectures and practice.",
+  //   count: 2,
+  //   courses: [
+  //     {
+  //       id: 401, tag: "GATE CS · SUBJECT", title: "Theory of Computation (Recorded)",
+  //       subtitle: "Prof Ravindrababu Ravula",
+  //       image: "/courses/TOC.jpg",
+  //       link: "https://voujhg.courses.store/842453?utm_source=other&utm_medium=tutor-course-referral&utm_campaign=course-overview-webapp",
+  //       description: "This course covers the core concepts of Theory of Computation required for GATE CSE preparation. It includes finite automata, regular languages, context-free grammars, pushdown automata, Turing machines, computability, decidability, and complexity theory.",
+  //       highlights: ["Finite Automata & Regular Languages", "CFG & Pushdown Automata", "Turing Machines & Decidability", "GATE CSE Aligned"],
+  //       price: "3,999", originalPrice: "0", discount: "0", color: "dark",
+  //       details: {
+  //         overview: "This course covers the core concepts of Theory of Computation required for GATE CSE preparation. It includes finite automata, regular languages, context-free grammars, pushdown automata, Turing machines, computability, decidability, and complexity theory. The course is designed to build strong theoretical foundations through concept-based lectures, examples, and practice problems aligned with the GATE syllabus.",
+  //         format: ["Topic-wise structured lectures covering the complete TOC syllabus", "Previous Year Questions (PYQs) discussed with detailed explanation", "Concept-based approach with exam-level problem solving", "Practice problems and assignments after each topic"],
+  //         whatYouLearn: [
+  //           "Regular Languages and Regular Expressions",
+  //           "Deterministic and Non-Deterministic Finite Automata (DFA & NFA)",
+  //           "Context-Free Grammars (CFG) and Pushdown Automata (PDA)",
+  //           "Regular and Context-Free Languages — properties and closure",
+  //           "Pumping Lemma for Regular and Context-Free Languages",
+  //           "Turing Machines — construction, variants, and computability",
+  //           "Decidability and Undecidability",
+  //           "Complexity Theory",
+  //         ],
+  //         subjects: [
+  //           "Regular Languages & Finite Automata",
+  //           "Context-Free Languages & PDAs",
+  //           "Pumping Lemma",
+  //           "Turing Machines",
+  //           "Decidability & Undecidability",
+  //           "Complexity Theory",
+  //         ],
+  //         features: [
+  //           "Complete GATE CS TOC Syllabus Coverage",
+  //           "Concept-First Approach — strong intuition before formalism",
+  //           "PYQ Discussion — every important previous year question explained",
+  //           "Exam-Oriented Practice — problems designed to match GATE difficulty",
+  //           "Recorded access — learn at your own pace",
+  //         ],
+  //         whatYouGet: [
+  //           "Complete TOC lecture series (Recorded)",
+  //           "Previous Year Questions with detailed solutions",
+  //           "Practice problems topic-wise",
+  //           "1 Year validity",
+  //         ],
+  //         whoIsFor: [
+  //           "GATE CS aspirants preparing TOC as a standalone subject",
+  //           "Students who want concept clarity in Automata Theory",
+  //           "Those who find TOC abstract and need structured explanation",
+  //           "Aspirants revising TOC before the GATE exam",
+  //         ],
+  //         outcome: [
+  //           "Strong conceptual understanding of all TOC topics",
+  //           "Ability to solve GATE-level TOC questions confidently",
+  //           "Clear understanding of formal languages and machines",
+  //           "Familiarity with decidability arguments and reductions",
+  //         ],
+  //       },
+  //     },
+  //     {
+  //       id: 402, tag: "GATE CS · SUBJECT", title: "Database Management System (Recorded)",
+  //       subtitle: "Prof Ravindrababu Ravula",
+  //       image: "/courses/dbms.jpg",
+  //       link: "https://voujhg.courses.store/842601?utm_source=other&utm_medium=tutor-course-referral&utm_campaign=course-overview-webapp",
+  //       description: "This course provides a complete understanding of Database Management Systems, covering both fundamental and advanced concepts. Topics include the need for DBMS, normalization, relational algebra, SQL, ER modeling, file organization, indexing, transaction management, and concurrency control.",
+  //       highlights: ["ER Model & Relational Algebra", "SQL & Normalization", "Transactions & Concurrency", "GATE CSE Aligned"],
+  //       price: "3,999", originalPrice: "0", discount: "0", color: "dark",
+  //       details: {
+  //         overview: "This course provides a complete understanding of Database Management Systems, covering both fundamental and advanced concepts. Topics include the need for DBMS, normalization, relational algebra, SQL, ER modeling, file organization, indexing, transaction management, and concurrency control. The course also includes practice questions and recorded lectures to strengthen conceptual clarity and problem-solving skills.",
+  //         format: ["Topic-wise structured lectures covering the complete DBMS syllabus", "Previous Year Questions (PYQs) discussed with detailed explanation", "Concept-based approach with exam-level problem solving", "Practice problems and assignments after each topic"],
+  //         whatYouLearn: [
+  //           "Need for DBMS and fundamental concepts",
+  //           "Entity-Relationship (ER) Model and ER-to-Relational mapping",
+  //           "Relational Algebra and SQL",
+  //           "Normalization — 1NF, 2NF, 3NF, BCNF",
+  //           "File Organization and Indexing (B Trees and B+ Trees)",
+  //           "Transaction Management and ACID Properties",
+  //           "Concurrency Control",
+  //         ],
+  //         subjects: [
+  //           "ER Model & Relational Model",
+  //           "Relational Algebra & SQL",
+  //           "Normalization",
+  //           "File Organization & Indexing",
+  //           "Transaction Management",
+  //           "Concurrency Control",
+  //         ],
+  //         features: [
+  //           "Complete GATE CS DBMS Syllabus Coverage",
+  //           "Concept-First Approach — intuition and understanding before problem solving",
+  //           "PYQ Discussion — all important previous year questions explained",
+  //           "Exam-Oriented Practice — questions at GATE difficulty level",
+  //           "Recorded access — learn at your own pace",
+  //         ],
+  //         whatYouGet: [
+  //           "Complete DBMS lecture series (Recorded)",
+  //           "Previous Year Questions with detailed solutions",
+  //           "Practice questions for conceptual clarity",
+  //           "1 Year validity",
+  //         ],
+  //         whoIsFor: [
+  //           "GATE CS aspirants preparing DBMS as a standalone subject",
+  //           "Students who want to strengthen SQL and Normalization",
+  //           "Those who need clarity on Transactions and Concurrency Control",
+  //           "Aspirants revising DBMS before the GATE exam",
+  //         ],
+  //         outcome: [
+  //           "Complete understanding of DBMS — fundamentals to advanced",
+  //           "Ability to solve GATE-level DBMS questions confidently",
+  //           "Clear command over SQL, Normalization, and Transactions",
+  //           "Strong grasp of indexing structures and concurrency protocols",
+  //         ],
+  //       },
+  //     },
+  //   ],
+  // },
 ];
 
 /* Keep each category's count and the "Courses Offered" stat in sync
    with the actual data — no more hardcoded numbers to forget. */
 CATEGORIES.forEach((c) => { c.count = c.courses.length; });
-const TOTAL_COURSES = CATEGORIES.reduce((n, c) => n + c.courses.length, 0);
+const TOTAL_COURSES = CATEGORIES.reduce((n, c) => n + c.courses.length, 0) + 5;
 
 const COURSE_STATS = [
   { value: String(TOTAL_COURSES), label: "Courses Offered", icon: "📚" },
@@ -2060,59 +2102,6 @@ export default function CoursesPage() {
             </div>
           </div>
 
-          {/* ══════════════════════════════════════════
-              PERMUTATION & COMBINATIONS — UDEMY (full-width)
-          ══════════════════════════════════════════ */}
-          <div className="cp-faang-section cp-pnc-section">
-            {/* Marquee */}
-            <div className="cp-faang-marquee">
-              <div className="cp-faang-marquee-track">
-                {[...Array(3)].map((_, i) => (
-                  <span key={i}>{PNC_COURSE.marqueeText}</span>
-                ))}
-              </div>
-            </div>
-
-            <div className="cp-faang-inner">
-              {/* Badge row */}
-              <div className="cp-faang-badges">
-                <span className="cp-faang-badge-tag">{PNC_COURSE.tag}</span>
-              </div>
-
-              <div className="cp-faang-card">
-                {/* Left — Image */}
-                <div className="cp-faang-img-wrap">
-                  <img src={`${PNC_COURSE.image}?v=1`} alt={PNC_COURSE.title} />
-                  <div className="cp-faang-img-glow" />
-                </div>
-
-                {/* Right — Content */}
-                <div className="cp-faang-content">
-                  <h2 className="cp-faang-title">{PNC_COURSE.title}</h2>
-                  <p className="cp-faang-subtitle">{PNC_COURSE.subtitle}</p>
-                  <p className="cp-faang-desc">{PNC_COURSE.description}</p>
-
-                  <div className="cp-faang-highlights">
-                    {PNC_COURSE.highlights.map((h, i) => (
-                      <div className="cp-faang-highlight" key={i}>
-                        <CheckIcon /> <span>{h}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  <div className="cp-faang-pricing">
-                    <span className="cp-faang-current-price">₹{PNC_COURSE.price}</span>
-                  </div>
-
-                  <div className="cp-faang-actions">
-                    <a href={PNC_COURSE.link} target="_blank" rel="noopener noreferrer" className="cp-faang-enroll-btn">
-                      <PlayIcon /> Enroll on Udemy
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="cp-courses-inner">
             {/* ── Categorized Course Groups ── */}
@@ -2190,6 +2179,167 @@ export default function CoursesPage() {
                 </div>
               </div>
             ))}
+          </div>
+          {/* ══════════════════════════════════════════
+              PERMUTATION & COMBINATIONS — UDEMY (full-width)
+          ══════════════════════════════════════════ */}
+          <div className="cp-faang-section cp-pnc-section">
+            {/* Marquee */}
+            <div className="cp-faang-marquee">
+              <div className="cp-faang-marquee-track">
+                {[...Array(3)].map((_, i) => (
+                  <span key={i}>{PNC_COURSE.marqueeText}</span>
+                ))}
+              </div>
+            </div>
+
+            <div className="cp-faang-inner">
+              {/* Badge row */}
+              <div className="cp-faang-badges">
+                <span className="cp-faang-badge-tag">{PNC_COURSE.tag}</span>
+              </div>
+
+              <div className="cp-faang-card">
+                {/* Left — Image */}
+                <div className="cp-faang-img-wrap">
+                  <img src={`${PNC_COURSE.image}?v=1`} alt={PNC_COURSE.title} />
+                  <div className="cp-faang-img-glow" />
+                </div>
+
+                {/* Right — Content */}
+                <div className="cp-faang-content">
+                  <h2 className="cp-faang-title">{PNC_COURSE.title}</h2>
+                  <p className="cp-faang-subtitle">{PNC_COURSE.subtitle}</p>
+                  <p className="cp-faang-desc">{PNC_COURSE.description}</p>
+
+                  <div className="cp-faang-highlights">
+                    {PNC_COURSE.highlights.map((h, i) => (
+                      <div className="cp-faang-highlight" key={i}>
+                        <CheckIcon /> <span>{h}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* <div className="cp-faang-pricing">
+                    <span className="cp-faang-current-price">₹{PNC_COURSE.price}</span>
+                  </div> */}
+
+                  <div className="cp-faang-actions">
+                    <a href={PNC_COURSE.link} target="_blank" rel="noopener noreferrer" className="cp-faang-enroll-btn">
+                      <PlayIcon /> Enroll on Udemy
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ══════════════════════════════════════════
+              OPERATING SYSTEMS — UDEMY (full-width)
+          ══════════════════════════════════════════ */}
+          <div className="cp-faang-section cp-pnc-section">
+            {/* Marquee */}
+            <div className="cp-faang-marquee">
+              <div className="cp-faang-marquee-track">
+                {[...Array(3)].map((_, i) => (
+                  <span key={i}>{OS_COURSE.marqueeText}</span>
+                ))}
+              </div>
+            </div>
+
+            <div className="cp-faang-inner">
+              {/* Badge row */}
+              <div className="cp-faang-badges">
+                <span className="cp-faang-badge-tag">{OS_COURSE.tag}</span>
+              </div>
+
+              <div className="cp-faang-card">
+                {/* Left — Image */}
+                <div className="cp-faang-img-wrap">
+                  <img src={`${OS_COURSE.image}?v=1`} alt={OS_COURSE.title} />
+                  <div className="cp-faang-img-glow" />
+                </div>
+
+                {/* Right — Content */}
+                <div className="cp-faang-content">
+                  <h2 className="cp-faang-title">{OS_COURSE.title}</h2>
+                  <p className="cp-faang-subtitle">{OS_COURSE.subtitle}</p>
+                  <p className="cp-faang-desc">{OS_COURSE.description}</p>
+
+                  <div className="cp-faang-highlights">
+                    {OS_COURSE.highlights.map((h, i) => (
+                      <div className="cp-faang-highlight" key={i}>
+                        <CheckIcon /> <span>{h}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* <div className="cp-faang-pricing">
+                    <span className="cp-faang-current-price">₹{OS_COURSE.price}</span>
+                  </div> */}
+
+                  <div className="cp-faang-actions">
+                    <a href={OS_COURSE.link} target="_blank" rel="noopener noreferrer" className="cp-faang-enroll-btn">
+                      <PlayIcon /> Enroll on Udemy
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ══════════════════════════════════════════
+              COMPUTER NETWORKS — UDEMY (full-width)
+          ══════════════════════════════════════════ */}
+          <div className="cp-faang-section cp-pnc-section">
+            {/* Marquee */}
+            <div className="cp-faang-marquee">
+              <div className="cp-faang-marquee-track">
+                {[...Array(3)].map((_, i) => (
+                  <span key={i}>{CN_COURSE.marqueeText}</span>
+                ))}
+              </div>
+            </div>
+
+            <div className="cp-faang-inner">
+              {/* Badge row */}
+              <div className="cp-faang-badges">
+                <span className="cp-faang-badge-tag">{CN_COURSE.tag}</span>
+              </div>
+
+              <div className="cp-faang-card">
+                {/* Left — Image */}
+                <div className="cp-faang-img-wrap">
+                  <img src={`${CN_COURSE.image}?v=1`} alt={CN_COURSE.title} />
+                  <div className="cp-faang-img-glow" />
+                </div>
+
+                {/* Right — Content */}
+                <div className="cp-faang-content">
+                  <h2 className="cp-faang-title">{CN_COURSE.title}</h2>
+                  <p className="cp-faang-subtitle">{CN_COURSE.subtitle}</p>
+                  <p className="cp-faang-desc">{CN_COURSE.description}</p>
+
+                  <div className="cp-faang-highlights">
+                    {CN_COURSE.highlights.map((h, i) => (
+                      <div className="cp-faang-highlight" key={i}>
+                        <CheckIcon /> <span>{h}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* <div className="cp-faang-pricing">
+                    <span className="cp-faang-current-price">₹{CN_COURSE.price}</span>
+                  </div> */}
+
+                  <div className="cp-faang-actions">
+                    <a href={CN_COURSE.link} target="_blank" rel="noopener noreferrer" className="cp-faang-enroll-btn">
+                      <PlayIcon /> Enroll on Udemy
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
